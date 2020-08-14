@@ -1,9 +1,4 @@
-from pybot_eto import eto_command
-from pybot_random import choice_command, dice_command
-from pybot_datetime import today_command, now_command, weekday_command, heisei_command
-from pybot_math import sqrt_command
-from pybot_weather import weather_command
-from pybot_wikipedia import wikipedia_command
+from module import *
 
 # 長さコマンド
 def len_command(command):
